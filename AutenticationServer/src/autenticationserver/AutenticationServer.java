@@ -71,7 +71,7 @@ public class AutenticationServer {
                     if(intentos <= 0){
                         System.out.println("El usuario se ha quedado sin intentos. Volverá a intentarlo de nuevo en 30 segundos");
                         output.println("Se ha quedado sin intentos. Vuelva a intentarlo de nuevo en 30 segundos");
-                        Thread.sleep(3000);
+                        Thread.sleep(30000);
                         sinIntentos = true;
                     }
 
